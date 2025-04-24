@@ -26,14 +26,14 @@ Este repositorio forma parte de una aplicación completa enfocada en ayudar a us
 ## ⚙️ Instalación y ejecución local (CMD)
 
 # 1. Clona el repositorio
-git clone https://github.com/g0nzalo26/tax-planner-backend.git
-cd tax-planner-backend
+- git clone https://github.com/g0nzalo26/tax-planner-backend.git
+- cd tax-planner-backend
 
 # 2. Instala dependencias
-npm install
+- npm install
 
 # 3. Crea un archivo .env basado en .env.example
-cp .env.example .env
+- cp .env.example .env
 
 - PORT= Puerto a elección
 - MONGODB_CNN= mongodb+srv://<usuario>:<contraseña>@<nombre-del-cluster>.mongodb.net/<nombre-de-tu-base-de-datos>?retryWrites=true&w=majority
@@ -41,5 +41,5 @@ cp .env.example .env
 - CLOUDINARY_URL= cloudinary://<api_key>:<api_secret>@<cloud_name>
 
 # 4. Ejecuta el servidor
-npm run dev
+- npm run dev
 
