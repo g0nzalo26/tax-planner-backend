@@ -34,17 +34,11 @@ Este repositorio forma parte de una aplicación completa enfocada en ayudar a us
 
 # 3. Crea un archivo .env basado en .env.example
 - cp .env.example .env
-
+```
 - PORT= Puerto a elección
 - MONGODB_CNN= mongodb+srv://<usuario>:<contraseña>@<nombre-del-cluster>.mongodb.net/<nombre-de-tu-base-de-datos>?retryWrites=true&w=majority
 - SECRETORPRIVATEKEY= Clave Secreta Ejemplo
 - CLOUDINARY_URL= cloudinary://<api_key>:<api_secret>@<cloud_name>
-
-```
-PORT=             # Puerto a elección (ej. 3000)
-MONGODB_CNN=      # mongodb+srv://<usuario>:<contraseña>@<cluster>.mongodb.net/<nombreBD>?retryWrites=true&w=majority
-SECRETORPRIVATEKEY= # Clave secreta para JWT
-CLOUDINARY_URL=   # cloudinary://<api_key>:<api_secret>@<cloud_name>
 ```
 
 # 4. Ejecuta el servidor
